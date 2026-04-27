@@ -7,18 +7,29 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: step1
-          run: echo "hello from job1"
+          run: 
+            echo "hello from job1"
+            echo "April 27th 2026"
     job2:
         name: job2
         runs-on: windows-latest
         steps:
         - name: step2
-          run: echo "hello from job2"
-
+          run:
+            echo "hello from job2"
+            echo "April 26th 2026"
     job3:
         name: job3
         runs-on: ubuntu-latest
         steps:
         - name: step3
-          run: echo "hello from job3"
+          run: 
+            echo "hello from job3"
+            echo "April 25th 2026"
+    job4:
+        name: job4
+        runs-on: ubuntu-latest
+        steps:
+        - name: step4
+          run: echo "I am job 4"
           
