@@ -12,6 +12,8 @@ jobs:
             python-version: 3.12
         - name: check version of python
           run: python --version
+        - name: check ver of pip
+          run: pip --version
     job2:
         name: job2
         runs-on: windows-latest
